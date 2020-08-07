@@ -1,0 +1,19 @@
+1. A neuron computes a linear function (z = Wx + b) followed by an activation function
+
+2.{L}^{(i)}(\hat{y}^{(i)}, y^{(i)}) = -( y^{(i)}log(\hat{y}^{(i)}) + (1- y^{(i)})\log(1-\hat{y}^{(i)})L(i)(y^(i),y(i))=−(y(i)log(y^(i))+(1−y(i))log(1−y^(i)))
+
+3. x = img.reshape((32*32*3,1))
+
+4. c.shape = (2,3)
+
+5. The computation cannot happen because the sizes don't match. It's going to be "Error"!
+
+6. (nx,m)
+
+7. c.shape = (12288,45)
+
+8. c = a+b.T
+
+9.This will invoke broadcasting, so b is copied three times to become (3,3), and *∗ is an element-wise product so c.shape will be (3, 3)
+
+10. J = (a-1)*(b+c)
